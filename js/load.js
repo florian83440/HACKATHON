@@ -7,5 +7,6 @@ function loadController(name) {
 // Permet de charger une vue à l'aide jQuery
 // Prend en paramètre le nom de la vue qui doit être le même que la div dans laquelle il doit se trouver
 function loadView(name) {
-    $("#" + name).load("views/" + name + ".html");
+    if(f)
+    $("#" + name).load("views/" + name + ".php");
 }
