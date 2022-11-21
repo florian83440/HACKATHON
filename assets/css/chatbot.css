@@ -218,3 +218,7 @@
     clear: both;
     margin-bottom: 70px;
 }
+
+span.botConfirmAction, span.botConfirmData { 
+    display:none !important;
+}
