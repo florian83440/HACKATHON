@@ -1,0 +1,33 @@
+:root{
+    --main-color:#3581B8 ;
+    --main-color-shadow: #212d3940;
+
+    --second-color:#EBE9E9;
+
+    --third-color:#FCB07E;
+
+    --bg-color:white;
+    --bg-linear: linear-gradient(90deg, #3581b84d, #fcb07ea9);
+
+    --text-main:black;
+    --text-contrast:#ffffffde;
+}
+
+/* Titres */
+
+h1.title {
+    color: var(--main-color);
+}
+
+h2.title {
+    color: var(--second-color);
+}
+
+h3.title {
+    color: var(--third-color);
+}
+
+/* Liens */
+a {
+    color: var(--third-color);
+}

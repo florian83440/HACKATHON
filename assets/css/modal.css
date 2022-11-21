@@ -1,0 +1,4 @@
+div.modal-content label.label
+{
+    color: var(--text-main) !important;
+}

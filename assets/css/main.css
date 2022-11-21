@@ -1,0 +1,39 @@
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.main #login,
+.main #intro {
+    padding: 10%;
+    height: 100%;
+}
+
+.main #intro {
+    color: var(--text-color);
+    background: var(--bg-linear);
+    /* url(../images/main-bg.jpg); */
+    background-position: 60%;
+}
+
+.main #login {
+    background-color: var(--main-color);
+    color: var(--text-contrast);
+}
+
+.main #login .button {
+    width: 100%;
+}
+
+.main input.button {
+    border: none !important;
+    color: var(--text-main);
+}
+
+.main label.label {
+    color: var(--text-contrast);
+}
+
+.main a:hover{
+    color: var(--second-color);
+}

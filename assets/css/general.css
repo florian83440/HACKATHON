@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Scrollabr */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*  */
+.columns {
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.column {
+    padding: 0 !important;
+}
+
+#controller {
+    position: absolute;
+    width: 100%;
+    height: calc(100% -56px);
+}
+
+#controller {
+    height: 100%;
+}

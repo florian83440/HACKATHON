@@ -1,0 +1,14 @@
+div.home{
+    /* background-image:
+    var(--bg-linear),
+    url(../images/home1.jpg); */
+    background-size: cover;
+    height: 100%;
+}
+
+div.home div#home-search{
+    background-image: url('../images/banner.jpg');
+    background-position: 80% 50%;
+    height: 300px;
+    border-top: 4px solid var(--main-color);
+}
