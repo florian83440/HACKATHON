@@ -1,0 +1,23 @@
+.navbar {
+    background-color: white;
+    /* position: absolute; */
+    /* border-bottom: 1px solid rgb(145, 145, 145); */
+}
+
+.navbar-item h3 {
+
+    color: var(--text-contrast) !important;
+}
+
+.navbar-item{
+    color: var(--text-contrast) !important;
+}
+
+.navbar-item{
+    background-color: var(--main-color);
+}
+
+.navbar-item:hover
+{
+    background-color: var(--main-color) !important;
+}
