@@ -3,7 +3,7 @@
     $server_name = 'localhost';
     $db_name = 'hackathon';
     $db_username = 'root';
-    $db_password = '';
+    $db_password = 'Azerty0';
     
     try
     {

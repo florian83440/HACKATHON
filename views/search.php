@@ -1,34 +1,30 @@
-<div class="column is-6 is-offset-3">
-    <div class="columns">
-        <div class="column is-3 field">
-            <label class="label">From</label>
+<div class="columns">
+    <div class="column is-3 is-offset-3 field">
+        <form acrtion="models/verifSearch.php" method="get">
+            <label class="label">Company</label>
             <div class="control">
-                <input class="input" type="text" placeholder="Nice">
+                <input class="input" type="search" placeholder="American Airlines" name="keywords">
+                <input class="button" type="submit" name="buttonSearch" value="Search">
             </div>
-        </div>
-        <div class="column is-3 field">
-            <label class="label">To</label>
-            <div class="control">
-                <input class="input" type="text" placeholder="Bordeaux">
-            </div>
-        </div>
-        <div class="column is-2 field">
-            <label class="label">Depart</label>
-            <div class="control">
-                <input class="input" type="date">
-            </div>
-        </div>
-        <div class="column is-2 field">
-            <label class="label">Return</label>
-            <div class="control">
-                <input class="input" type="date">
-            </div>
-        </div>
-        <div class="column is-2 field">
-            <label class="label">Travellers</label>
-            <div class="control">
-                <input class="input" type="number" placeholder="Text input" value="1" min="1">
+        </form>
+    </div>
+    <div class="column is-3 is-offset-1 field">
+        <label class="label">Handicaps</label>
+        <div class="control">
+            <div class="select is-info">
+                <select>
+                    <option value="0">Choice...</option>
+                    <?php
+                    require_once('models/verifSearch.php');
+                    ?>
+                </select>
             </div>
         </div>
     </div>
+</div>
+<div id="result">
+    <div id="nbr">2 résult search</div>
+    <ol>
+        <li>Results 1</li>
+    </ol>
 </div>
