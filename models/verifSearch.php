@@ -3,7 +3,7 @@
 
 require_once 'connect.php';
 
-if (isset($_GET["buttonSearch"]) and $_GET["buttonSearch"] == "Search") {
+
     $_GET["keywords"] = htmlspecialchars($_GET["keywords"]); //pour sécuriser le formulaire contre les failles html
     $keywords = $_GET["keywords"];
     $keywords = trim($keywords); //pour supprimer les espaces dans la requête de l'internaute
@@ -18,6 +18,6 @@ if (isset($_GET["buttonSearch"]) and $_GET["buttonSearch"] == "Search") {
     } else {
         $message = "You must enter your query in the search bar";
     }
-}
+
 
 ?>

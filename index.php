@@ -19,6 +19,7 @@ session_start();
 
     <!-- Scripts -->
     <script type="text/javascript" src="js/checkPassword.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>
     <script type="text/javascript" src="js/load.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
     <script type="text/javascript" src="js/responsiveNavbar.js"></script>
@@ -71,6 +72,7 @@ if (isset($_GET['page'])) {
 
     <div class="chat-box">
         <div class="chat-box-header">
+        <i class="fa-solid fa-robot fa-lg" style="float: left; margin-top: 15px; margin-left: 15px;"></i>
             ChatBot
             <span class="chat-box-toggle"><i class="material-icons">close</i></span>
         </div>
@@ -85,7 +87,7 @@ if (isset($_GET['page'])) {
         <div class="chat-input">
             <form>
                 <input type="text" id="chat-input" placeholder="Send a message..." />
-                <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="fa fa-paper-plane"></i></button>
             </form>
         </div>
     </div>

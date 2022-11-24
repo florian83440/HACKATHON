@@ -51,3 +51,8 @@ body {
 .about  {
     margin: 5px;
 }
+
+button{
+    background-color: var(--third-color) !important;
+    color: white !important;
+}

@@ -1,30 +1,26 @@
 <div class="columns">
-    <div class="column is-3 is-offset-3 field">
-        <form acrtion="models/verifSearch.php" method="get">
-            <label class="label">Company</label>
+    <div class="column is-2 is-offset-4">
+        <div class="field">
+            <label class="label">Airline</label>
             <div class="control">
-                <input class="input" type="search" placeholder="American Airlines" name="keywords">
-                <input class="button" type="submit" name="buttonSearch" value="Search">
+                <input class="input" type="text" placeholder="Text input">
             </div>
-        </form>
+        </div>
     </div>
-    <div class="column is-3 is-offset-1 field">
-        <label class="label">Handicaps</label>
+    <div class="column is-1">
+        <label class="label">Disability</label>
         <div class="control">
-            <div class="select is-info">
+            <div class="select">
                 <select>
-                    <option value="0">Choice...</option>
-                    <?php
-                    require_once('models/verifSearch.php');
-                    ?>
+                    <option>Choice ...</option>
                 </select>
             </div>
         </div>
     </div>
-</div>
-<div id="result">
-    <div id="nbr">2 résult search</div>
-    <ol>
-        <li>Results 1</li>
-    </ol>
+    <div class="column is-1">
+        <div class="control">
+            <label class="label">&nbsp;</label>
+            <button class="button">Rechercher</button>
+        </div>
+    </div>
 </div>
