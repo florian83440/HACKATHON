@@ -1,7 +1,7 @@
 // Permet de charger un contrôleur à l'aide jQuery
 // Prend en paramètre l'id de la div et le le nom de la vue
 function loadController(name) {
-    $("#controller").load("controllers/" + name + ".html");
+    $("#controller").load("controllers/" + name + ".php");
 }
 
 // Permet de charger une vue à l'aide jQuery

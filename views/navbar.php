@@ -14,7 +14,7 @@
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
             <a href="?page=companies" class="navbar-item">Companies</a>
-            <a href="?page=companies" class="navbar-item">Ranking</a>
+            <a href="?page=ranking" class="navbar-item">Ranking</a>
         </div>
         <div class="navbar-end">
             <a href="?page=about" class="navbar-item">About us</a>
